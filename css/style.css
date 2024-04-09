@@ -504,6 +504,63 @@ input[type="submit"]:hover {
   padding: 0 5% 0 5%;
 }
 
+/* Style Pagina de Quem somos */
+
+.container_quemsomos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container_quemsomos img {
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.container_quemsomos h1 {
+  color: rgb(255, 190, 28);
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.quemsomos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 25% 0 25%;
+}
+
+.container_quemsomos h1 {
+  font-family: "Kanit", sans-serif;
+  color: rgb(255, 190, 28);
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.subtitulo-quemsomos {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  color: rgb(221, 255, 28);
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .atuacao {
+    flex-direction: row;
+  }
+
+  .container_atuacao {
+    width: calc(50% - 10px);
+    margin-bottom: 0;
+  }
+}
+
 /* Footer */
 footer {
   background-color: #711c1f;

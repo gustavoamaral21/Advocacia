@@ -119,7 +119,7 @@
                 </a>
               </div>
               <div class="form_contato">
-                <form action="php/enviar_email.php" method="POST">
+                <form action="https://formsubmit.co/contato@gganalytics.com.br" method="POST">
                   <div class="row">
                     <label>Seu E-mail:</label>
                     <input type="email" name="email" id="email" required />
@@ -135,6 +135,9 @@
                   <div class="row">
                     <input type="submit" value="Enviar" />
                   </div>
+                  <input type="hidden" name="_subject" value="Novo Contato!">
+                  <input type="text" name="_honey" style="display: none;">
+                  <input type="hidden" name="_captcha" value="false">
                 </form>
               </div>
             </div>

@@ -10,7 +10,6 @@
 
 /* Style do corpo do site */
 body {
-  background-color: #711c1f;
   margin: 0;
   padding: 0;
 }
@@ -483,6 +482,7 @@ input[type="submit"]:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 10% 0 10%;
 }
 
 @media (min-width: 768px) {
@@ -502,6 +502,14 @@ input[type="submit"]:hover {
   align-items: left;
   text-align: left;
   padding: 0 5% 0 5%;
+}
+.pag22 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  padding: 0 5% 0 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Style Pagina de Quem somos */

@@ -507,23 +507,22 @@ input[type="submit"]:hover {
 /* Style Pagina de Quem somos */
 
 .container_quemsomos {
+  width: 270px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
+  background-color: #711c1f;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .container_quemsomos img {
   max-width: 150px;
   height: 150px;
   border-radius: 50%;
-}
-
-.container_quemsomos h1 {
-  color: rgb(255, 190, 28);
-  font-size: 18px;
-  margin-top: 5px;
-  text-align: center;
+  margin-top: 20px;
 }
 
 .quemsomos {
@@ -537,17 +536,15 @@ input[type="submit"]:hover {
   font-family: "Kanit", sans-serif;
   color: rgb(255, 190, 28);
   font-size: 20px;
-  margin-top: 5px;
   text-align: center;
 }
 
-.subtitulo-quemsomos {
+.container_quemsomos p {
   font-family: "Kanit", sans-serif;
   text-align: center;
   color: rgb(221, 255, 28);
   width: 100%;
   max-width: 250px;
-  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {

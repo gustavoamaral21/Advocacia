@@ -460,12 +460,12 @@ input[type="submit"]:hover {
   margin-left: 60px;
   max-width: 100%;
   width: 400px;
-  height: 400px;
+  height: 300px;
 }
 
 .container_atuacao img {
-  width: 550px;
-  height: 300px;
+  width: 350px;
+  height: 200px;
   border-radius: 8px;
   opacity: 0.5; /* Define a opacidade inicial das imagens */
   transition: opacity 0.3s ease; /* Adiciona uma transição suave */

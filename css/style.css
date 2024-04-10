@@ -457,7 +457,7 @@ input[type="submit"]:hover {
 .container_atuacao {
   align-items: center;
   margin-bottom: 10px;
-  margin-left: 60px;
+  margin-right: 50px;
   max-width: 100%;
   width: 400px;
   height: 300px;
@@ -544,7 +544,7 @@ input[type="submit"]:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* padding: 0 25% 0 25%; */
+  padding: 0 30% 0 30%;
 }
 
 .container_quemsomos h1 {

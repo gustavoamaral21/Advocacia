@@ -562,6 +562,18 @@ input[type="submit"]:hover {
   max-width: 250px;
 }
 
+
+@media (min-width: 768px) {
+  .container_quemsomos {
+    flex-direction: row;
+  }
+
+  .container_quemsomos img {
+    width: calc(50% - 10px);
+    margin-bottom: 0;
+  }
+}
+
 .animacao {
   opacity: 0;
   transform: translateY(10px);

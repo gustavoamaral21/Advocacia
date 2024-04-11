@@ -28,19 +28,32 @@ body.scrolled header {
   background-color: #f0f0f0;
 }
 
+body.scrolled nav a {
+  color: #343434;
+}
+
+body.scrolled nav a:hover::after{
+  background-color: #643915;
+}
+
+body.scrolled .logo img {
+  opacity: 1; /* Esconde a imagem quando a classe 'scrolled' é aplicada */
+}
+
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 150px;
+  padding: 10px 100px;
 }
 
 .logo {
-  margin-right: 90px;
+  margin-right: 100px;
 }
 
 .logo img {
-  height: 100px;
+  height: 130px;
 }
 
 .logocontato img {
@@ -72,7 +85,7 @@ nav {
 
 .menu a {
   text-decoration: none;
-  color: #343434;
+  color: #f0f0f0;
   font-size: 15px;
   position: relative;
 }
@@ -92,7 +105,7 @@ nav {
 
 .menu a:hover::after {
   width: 100%;
-  background-color: #643915;
+  background-color: #fbecc7;
 }
 
 /* STYLE PRIMEIRA PAGINA */
@@ -101,7 +114,7 @@ nav {
   position: relative;
   width: 100%;
   overflow: hidden; /* Parece que nao muda nada mais não apaga pelo amor de DEUS */
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(100, 57, 21, 0.4);
 }
 
 #background-video {
@@ -128,7 +141,7 @@ nav {
 
 .titulo {
   font-family: "Kanit", sans-serif;
-  color: #343434;
+  color: #f0f0f0;
   font-size: 45px;
   width: 100%;
   max-width: 600px;
@@ -150,7 +163,7 @@ nav {
 .containersubtitulo {
   width: 100%;
   font-size: 15px;
-  color: #343434;
+  color: #f0f0f0;
   overflow: hidden;
   font-family: "Kanit", sans-serif;
   white-space: nowrap;
